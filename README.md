@@ -1,19 +1,16 @@
-# Copy Message ID
+# Copy Message ID as an org mode link to mu4e 
 
 This is an extension that adds a button to the message header toolbar to
-copy the message ID to the clipboard. This is useful for sending email
-replies via the command line.
+copy the message ID to the clipboard so that it can be pasted into a org
+buffer as a link to a mu4e message in Emacs. 
+
+## Not in Mozilla Thunderbird add-ons platform
+This is a trivial plugin that modifies https://github.com/garoose/copy-message-id.
+At the moment, I have no intention to add it to Mozilla Thunderbird's add-ons 
+platform.
 
 ## Installation
+- Download copy-message-id-to-org-mu4e.xpi from Releases.
+- In Thunderbird, go to the `Add-ons Manager`.
+- Click `Install Add-on From File...` and select the `copy-message-id-to-org-mu4e.xpi`.
 
-### Get it from the Mozilla add-ons platform
-
-[Located
-here](https://addons.mozilla.org/en-US/thunderbird/addon/copy-message-id/)
-
-### Install it manually
-
-1. Checkout this repo
-2. Run `make` to generate the `xpi` file.
-3. In Thunderbird, go to the `Add-ons Manager`.
-4. Click `Install Add-on From File...` and select the `xpi` file from step 2.
